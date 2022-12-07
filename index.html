@@ -8,25 +8,26 @@
     <link rel="stylesheet" href="src/styles/reset.css" />
     <link rel="stylesheet" href="style.css" />
 
-    <link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="public/favicon.png" type="image/x-icon" />
 
     <title>CodeFlix</title>
   </head>
   <body>
     <h1>CodeFlix</h1>
-
-    <div class="main-search">
-      <div class="search-one">
-        <label class="main-label" for="nome">Nome do Filme:</label>
-        <input id="nome" class="main-input movie-name" type="text" />
+    <form action="post">
+      <div class="main-search">
+        <div class="search-one">
+          <label class="main-label" for="nome">Nome do Filme:</label>
+          <input id="nome" class="main-input movie-name" type="text" required />
+        </div>
+        <div class="search-two">
+          <label class="main-label" for="url">URL da imagem:</label>
+          <input id="url" class="main-input movie-url" type="text" required />
+        </div>
       </div>
-      <div class="search-two">
-        <label class="main-label" for="url">URL da imagem:</label>
-        <input id="url" class="main-input movie-url" type="text" />
-      </div>
-    </div>
 
-    <button class="main-btn" onclick="clickadd()">Adicionar</button>
+      <button class="main-btn" type="submit">Adicionar</button>
+    </form>
 
     <div class="main-banners">
       <figure class="fig-banner">
