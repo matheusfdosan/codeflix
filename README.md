@@ -4,6 +4,8 @@
 
 Um projeto muito simples, onde é possível o usuário adicionar cards de filmes.
 
+Veja ele [aqui](https://matheusfdosan.github.io/codeflix/)
+
 ## 👨‍💻 Techs
 
 - HTML
