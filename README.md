@@ -1,6 +1,6 @@
 # 📽️ CodeFlix
 
-![preview](./.github/preview.jpeg)
+![preview](./.github/preview.png)
 
 Um projeto muito simples, onde é possível o usuário adicionar cards de filmes.
 
